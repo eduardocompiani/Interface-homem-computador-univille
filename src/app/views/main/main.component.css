@@ -1,0 +1,21 @@
+.logo {
+    width: 100%;
+    max-width: 300px;
+}
+
+.handler {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button-handler {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-handler > *:not(:first-child) {
+    margin-top: 20px;
+}

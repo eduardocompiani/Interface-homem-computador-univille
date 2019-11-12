@@ -1,0 +1,23 @@
+<div class="handler">
+    <mat-form-field>
+        <input matInput placeholder="Nome do projeto" [value]="project.name">
+    </mat-form-field>
+    <mat-form-field>
+        <textarea matInput placeholder="Descrição" [value]="project.description"></textarea>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput [matDatepicker]="picker" placeholder="Data de execução" [value]="project.projectDate">
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Local" [value]="project.place">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Valor" type="number" class="example-right-align" [value]="project.price">
+        <span matPrefix>R$&nbsp;</span>
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Autor" [value]="project.author">
+    </mat-form-field>
+</div>
