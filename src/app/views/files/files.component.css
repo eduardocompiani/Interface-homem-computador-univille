@@ -1,0 +1,10 @@
+app-file-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+app-file-item:last-child {
+    margin-bottom: 15px;
+}

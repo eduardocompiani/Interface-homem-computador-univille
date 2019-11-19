@@ -10,6 +10,7 @@ import { CreateProjectComponent } from './views/create-project/create-project.co
 import { MyProjectsComponent } from './views/my-projects/my-projects.component';
 import { DetailOfProjectComponent } from './views/detail-of-project/detail-of-project.component';
 import { SponsorsComponent } from './views/sponsors/sponsors.component';
+import { FilesComponent } from './views/files/files.component';
 
 
 const routes: Routes = [
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path: 'create-project', component: CreateProjectComponent},
   {path: 'my-projects', component: MyProjectsComponent},
   {path: 'my-sponsors', component: SponsorsComponent},
+  {path: 'validated', component: FilesComponent},
 ];
 
 @NgModule({

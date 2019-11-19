@@ -1,4 +1,4 @@
-export let sponsors = [
+export let files = [
     {code: 1, name: "Arquivo 1", isValid: false, description: " Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors"},
     {code: 2, name: "Arquivo 2", isValid: true, description: "Donec neque est, feugiat at ex nec, vulputate mollis tortor. Etiam non venenatis urna. Cras in justo nec felis feugiat gravida. Donec luctus quam lacus, a commodo felis laoreet a. Fusce eu justo lectus. Integer quam felis, placerat et urna sit amet, condiment"},
     {code: 3, name: "Arquivo 3", isValid: true, description: "convallis ligula ut maximus egestas. Nunc ornare dolor id sapien posuere, at auctor lacus facilisis. Nunc quam lectus, accumsan id dui a, ornare volutpat er"},

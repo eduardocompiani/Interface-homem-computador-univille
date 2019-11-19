@@ -49,7 +49,8 @@ import { MyProjectsComponent } from './views/my-projects/my-projects.component';
 import { DetailOfProjectComponent } from './views/detail-of-project/detail-of-project.component';
 import { SponsorsComponent } from './views/sponsors/sponsors.component';
 import { SponsorItemComponent } from './components/sponsor-item/sponsor-item.component';
-import { FileItemComponent } from './component/list/file-item/file-item.component';
+import { FileItemComponent } from './components/list/file-item/file-item.component';
+import { FilesComponent } from './views/files/files.component';
 
 @NgModule({
   declarations: [
@@ -67,7 +68,8 @@ import { FileItemComponent } from './component/list/file-item/file-item.componen
     DetailOfProjectComponent,
     SponsorsComponent,
     SponsorItemComponent,
-    FileItemComponent
+    FileItemComponent,
+    FilesComponent
   ],
   imports: [
     BrowserModule,
