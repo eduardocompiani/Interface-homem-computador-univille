@@ -3,11 +3,11 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { projects } from '../../data/projects.js';
 
 @Component({
-  selector: 'app-detail-of-project-to-sponsor',
-  templateUrl: './detail-of-project-to-sponsor.component.html',
-  styleUrls: ['./detail-of-project-to-sponsor.component.css']
+  selector: 'app-detail-of-project',
+  templateUrl: './detail-of-project.component.html',
+  styleUrls: ['./detail-of-project.component.css']
 })
-export class DetailOfProjectToSponsorComponent implements OnInit {
+export class DetailOfProjectComponent implements OnInit {
 
   public project: any;
 

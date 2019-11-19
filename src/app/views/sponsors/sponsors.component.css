@@ -1,0 +1,10 @@
+app-sponsor-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+
+app-sponsor-item:last-child {
+    margin-bottom: 15px;
+}

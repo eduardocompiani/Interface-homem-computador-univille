@@ -8,6 +8,8 @@ import { Component, OnInit, Input } from '@angular/core';
 export class ProjectItemComponent implements OnInit {
 
   @Input() project: any;
+  @Input() showSponsor: boolean = false;
+  @Input() showDetail: boolean = false;
 
   constructor() { }
 

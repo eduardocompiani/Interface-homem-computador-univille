@@ -1,0 +1,16 @@
+.handler, app-project-detail {
+    width: 100%;
+    height: 100%;
+}
+
+.handler {
+    display: flex;
+    flex-direction: column;
+}
+
+.button-handler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}

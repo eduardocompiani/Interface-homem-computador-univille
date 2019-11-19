@@ -10,6 +10,13 @@
         </p>
     </mat-card-content>
     <mat-card-actions>
-        <button mat-raised-button color="primary" [disabled]="project.locked" [routerLink]="['/detail-of-project-to-sponsor', project.code]">Detalhes</button>
+        <button 
+            *ngIf="showSponsor"
+            mat-raised-button
+            color="primary"
+            [disabled]="project.locked"
+            [routerLink]="['/detail-of-project-to-sponsor', project.code]"
+        >Quero patrocinar</button>
+        <button *ngIf="showDetail" mat-raised-button color="primary" [routerLink]="['/detail-of-project', project.code]">Detalhes</button>
     </mat-card-actions>
 </mat-card>

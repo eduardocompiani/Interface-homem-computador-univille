@@ -45,6 +45,11 @@ import { ProjectItemComponent } from './components/list/project-item/project-ite
 import { DetailOfProjectToSponsorComponent } from './views/detail-of-project-to-sponsor/detail-of-project-to-sponsor.component';
 import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 import { CreateProjectComponent } from './views/create-project/create-project.component';
+import { MyProjectsComponent } from './views/my-projects/my-projects.component';
+import { DetailOfProjectComponent } from './views/detail-of-project/detail-of-project.component';
+import { SponsorsComponent } from './views/sponsors/sponsors.component';
+import { SponsorDetailComponent } from './components/sponsor-detail/sponsor-detail.component';
+import { SponsorItemComponent } from './components/sponsor-item/sponsor-item.component';
 
 @NgModule({
   declarations: [
@@ -57,7 +62,12 @@ import { CreateProjectComponent } from './views/create-project/create-project.co
     ProjectItemComponent,
     DetailOfProjectToSponsorComponent,
     ProjectDetailComponent,
-    CreateProjectComponent
+    CreateProjectComponent,
+    MyProjectsComponent,
+    DetailOfProjectComponent,
+    SponsorsComponent,
+    SponsorDetailComponent,
+    SponsorItemComponent
   ],
   imports: [
     BrowserModule,
