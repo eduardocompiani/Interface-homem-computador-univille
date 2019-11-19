@@ -48,8 +48,8 @@ import { CreateProjectComponent } from './views/create-project/create-project.co
 import { MyProjectsComponent } from './views/my-projects/my-projects.component';
 import { DetailOfProjectComponent } from './views/detail-of-project/detail-of-project.component';
 import { SponsorsComponent } from './views/sponsors/sponsors.component';
-import { SponsorDetailComponent } from './components/sponsor-detail/sponsor-detail.component';
 import { SponsorItemComponent } from './components/sponsor-item/sponsor-item.component';
+import { FileItemComponent } from './component/list/file-item/file-item.component';
 
 @NgModule({
   declarations: [
@@ -66,8 +66,8 @@ import { SponsorItemComponent } from './components/sponsor-item/sponsor-item.com
     MyProjectsComponent,
     DetailOfProjectComponent,
     SponsorsComponent,
-    SponsorDetailComponent,
-    SponsorItemComponent
+    SponsorItemComponent,
+    FileItemComponent
   ],
   imports: [
     BrowserModule,
